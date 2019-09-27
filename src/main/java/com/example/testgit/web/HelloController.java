@@ -17,4 +17,10 @@ public class HelloController {
         System.out.println("第 三 次提交");
         return "hello world";
     }
+
+    @RequestMapping(value = "merge")
+    public String merge(){
+        System.out.println("分支合并测试");
+        return "merge";
+    }
 }
