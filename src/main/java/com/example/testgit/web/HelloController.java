@@ -26,7 +26,8 @@ public class HelloController {
     }
 
     @RequestMapping(value = "me")
-    public String me(){
+    public String branch(){
+        this.hello();
         return "me";
     }
 }
