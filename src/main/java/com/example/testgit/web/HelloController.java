@@ -20,8 +20,8 @@ public class HelloController {
     }
 
     @RequestMapping(value = "merge")
-    public String merge(){
-        System.out.println("分支合并测试");
+    public String merge112(){
+        System.out.println("分支合并测试1212");
         return "merge";
     }
 
