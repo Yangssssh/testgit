@@ -26,8 +26,8 @@ public class HelloController {
     }
 
     @RequestMapping(value = "me")
-    public String branch(){
+    public String branchdnjfa(){
         this.hello();
-        return "me";
+        return "medfasdf";
     }
 }
