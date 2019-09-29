@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     /**
-    * @Description  new Branch分支
+    * @Description
     * @Author  Y.sh
     * @Date  2019/9/27 15:49
      *

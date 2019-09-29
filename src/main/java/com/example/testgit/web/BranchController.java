@@ -1,5 +1,7 @@
 package com.example.testgit.web;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+
 /**
  * @author Y.sh
  * @date 2019/9/27 17:09
@@ -8,6 +10,7 @@ package com.example.testgit.web;
  *
  *
  */
+@RequestMapping
 public class BranchController {
 
 }
