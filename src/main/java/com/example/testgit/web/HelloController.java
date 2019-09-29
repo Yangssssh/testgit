@@ -15,7 +15,7 @@ public class HelloController {
     */
     @RequestMapping(value = "hello")
     public String hello(){
-        System.out.println("第 三 次提交");
+        System.out.println("如何拉取");
         return "hello world";
     }
 
