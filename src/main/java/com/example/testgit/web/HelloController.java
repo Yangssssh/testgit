@@ -19,12 +19,6 @@ public class HelloController {
         return "hello world";
     }
 
-    @RequestMapping(value = "merge")
-    public String merge112(){
-        System.out.println("分支合并测试1212");
-        return "merge";
-    }
-
     @RequestMapping(value = "me")
     public String branch(){
         this.hello();
