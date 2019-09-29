@@ -11,6 +11,7 @@ public class HelloController {
     * @Description  new Branch分支
     * @Author  Y.sh
     * @Date  2019/9/27 15:49
+     *
     */
     @RequestMapping(value = "hello")
     public String hello(){
@@ -22,5 +23,10 @@ public class HelloController {
     public String merge(){
         System.out.println("分支合并测试");
         return "merge";
+    }
+
+    @RequestMapping(value = "me")
+    public String me(){
+        return "me";
     }
 }
