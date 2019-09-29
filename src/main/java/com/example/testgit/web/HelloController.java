@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     /**
-    * @Description
+    * @Description  new Branch分支
     * @Author  Y.sh
     * @Date  2019/9/27 15:49
      *
@@ -17,6 +17,12 @@ public class HelloController {
     public String hello(){
         System.out.println("如何拉取");
         return "hello world";
+    }
+
+    @RequestMapping(value = "merge")
+    public String merge112(){
+        System.out.println("分支合并测试1212");
+        return "merge";
     }
 
     @RequestMapping(value = "me")
